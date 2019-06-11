@@ -1,8 +1,8 @@
 {
-  "name": "strapi-provider-upload-azure",
-  "version": "0.0.2",
+  "name": "strapi-provider-upload-azure-cn",
+  "version": "0.0.1",
   "description": "Azure blob provider for strapi upload",
-  "repository": "https://github.com/zaralab-org/strapi-provider-upload-azure",
+  "repository": "https://github.com/hiber/strapi-provider-upload-azure",
   "homepage": "http://strapi.io",
   "keywords": [
     "upload",
@@ -15,22 +15,21 @@
   },
   "main": "./lib",
   "dependencies": {
-    "@azure/storage-blob": "^10.3.0",
-    "jimp": "^0.6.0"
+    "@azure/storage-blob": "^10.3.0"
   },
   "strapi": {
     "isProvider": true
   },
   "author": {
-    "email": "p.petkov@zaralab.org",
-    "name": "Petko Petkov",
-    "url": "https://www.zaralab.org"
+    "email": "hibersh@gmail.com",
+    "name": "hiber",
+    "url": "https://hibersh.com"
   },
   "maintainers": [
     {
-      "name": "Zaralab team",
-      "email": "info@zaralab.org",
-      "url": "https://www.zaralab.org"
+      "name": "hiber",
+      "email": "hibersh@gmail.com",
+      "url": "https://hibersh.com"
     }
   ],
   "engines": {
